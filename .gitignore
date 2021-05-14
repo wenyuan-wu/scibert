@@ -108,3 +108,7 @@ venv.bak/
 
 # other
 .DS_Store
+
+# chemprot testing ground
+downloaded_model/
+chemprot_output/
