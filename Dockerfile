@@ -35,6 +35,7 @@ RUN apt-get update --fix-missing && apt-get install -y \
 WORKDIR /work
 
 COPY requirements.txt .
+RUN pip install -U pip
 RUN pip install -r requirements.txt
 
 RUN python -m spacy download en_core_web_sm
