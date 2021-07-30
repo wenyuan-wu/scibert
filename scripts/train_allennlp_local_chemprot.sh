@@ -4,8 +4,8 @@
 # edit these variables before running script
 DATASET='chemprot'
 TASK='text_classification'
-with_finetuning='' #'_finetune'  # or '' for not fine tuning
-dataset_size=38124
+with_finetuning='_finetune' #'_finetune'  # or '' for not fine tuning
+dataset_size=4169 # from scripts/exp.py
 
 export BERT_VOCAB=downloaded_model/scibert_scivocab_uncased/vocab.txt
 export BERT_WEIGHTS=downloaded_model/scibert_scivocab_uncased/weights.tar.gz
