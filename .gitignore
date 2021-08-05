@@ -112,6 +112,7 @@ venv.bak/
 # chemprot testing ground
 downloaded_model/
 chemprot_output/
+chemprot_output_debug/
 chemprot_finetune_output/
 
 # apex
